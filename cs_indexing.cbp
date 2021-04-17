@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cs_indexing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/chaowyc/Work/workspace/indexing/cfl_indexing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tc">
+				<Option output="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/tc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaowyc/Work/workspace/indexing/cfl_indexing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 tc"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tc/fast">
+				<Option output="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/tc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaowyc/Work/workspace/indexing/cfl_indexing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 tc/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/chaowyc/Work/workspace/indexing/cfl_indexing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chaowyc/Work/workspace/indexing/cfl_indexing"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fc">
+				<Option output="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/fc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaowyc/Work/workspace/indexing/cfl_indexing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 fc"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fc/fast">
+				<Option output="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/fc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaowyc/Work/workspace/indexing/cfl_indexing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 fc/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="csr">
+				<Option output="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/csr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaowyc/Work/workspace/indexing/cfl_indexing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 csr"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="csr/fast">
+				<Option output="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/csr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaowyc/Work/workspace/indexing/cfl_indexing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 csr/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/CallGraph.cpp">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/CallGraph.h">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/CallSite.cpp">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/CallSite.h">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/DWGraph.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/DWGraph.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/DWGraphUtil.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/DWGraphUtil.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/DataComp.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/DataComp.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Function.cpp">
+			<Option target="tc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Function.h">
+			<Option target="tc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/FunctionCloning.cpp">
+			<Option target="fc"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/FunctionCloning.h">
+			<Option target="fc"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Grail.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Grail.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Graph.cpp">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Graph.h">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/GraphUtil.cpp">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/GraphUtil.h">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/IndexingGraph.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/IndexingGraph.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/PathTree.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/PathTree.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Query.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Query.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/ReachBackbone.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/ReachBackbone.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/TCSEstimator.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/TCSEstimator.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Tabulation.cpp">
+			<Option target="tc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Tabulation.h">
+			<Option target="tc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Utils.cpp">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/Utils.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/VFG.cpp">
+			<Option target="tc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/VFG.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/bit_vector.cpp">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/bit_vector.h">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/fc_main.cpp">
+			<Option target="fc"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/log.h">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/main.cpp">
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/progressbar.cpp">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/progressbar.h">
+			<Option target="tc"/>
+			<Option target="fc"/>
+			<Option target="csr"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/tc_main.cpp">
+			<Option target="tc"/>
+		</Unit>
+		<Unit filename="/Users/chaowyc/Work/workspace/indexing/cfl_indexing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
