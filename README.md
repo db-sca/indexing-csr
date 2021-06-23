@@ -3,15 +3,15 @@
 ### Build
 
 You need a linux operating system with build-essential and cmake(version>=3.14) installed. 
-Clone the repo and go to the root directory `indexing-csr`, then run `cmake .` and `make`
+Clone the repo and follow the commands below to build.
 
-```
-cd indexing-csr/
-cmake .
-make
+```bash
+$ cd indexing-csr/
+$ cmake .
+$ make
 ```
 
-Two executable files, `csr` and `tc`, will be generated:
+Two executable files will be generated:
 * `csr` answers a reachability query via either Reps' [2014] tabulation algorithm or our indexing scheme.
 
 * `tc` computes the transitive closure for a given graph.
@@ -70,9 +70,9 @@ PathTree related size: 1.07875 MB
 ```
 
 #### Run tc
-After specifying the folder of the graphs(`-fd`) and timeout hours(`-nh`), the progress of transitive closure computation and is 
-presented on the fly. If the total running time exceeds the timeout setup, the `tc` will raise a ALARM signal and then exit, otherwise, the
-total running time and transitive closure size will be reported to the terminal.
+After specifying the folder of the graphs(`-fd`) and timeout hours(`-nh`), the progress of transitive closure computation is 
+presented on the fly. If the total running time exceeds the timeout, `tc` will raise an ALARM signal and then exit. Otherwise, the
+total running time and the size of the transitive closure will be reported.
 
 Sample usage:
 
