@@ -40,26 +40,24 @@ Sample usage:
         # DDG Vertices: 22194   # DDG Edges: 29372
         Summary edge construction duration:       86.249 ms
         GRAIL indices construction duration:     217.701 ms
-        Total pathtree on Backbone duration:    1875.224 ms
-                Pathtree on backbone:     1354.414 ms
-                GRAIL on backbone:         520.810 ms
+        Pathtree indices construction duration:    1875.224 ms
 Randomly Generating 200 Queries Test...
 [##################################################] 100%
 --------- Reachable Queries Test ------------
         By GRAIL: 
-        Total GRAIL Time on 100 queries: 1.88622 ms. Success rate: 100 %.
+            Total GRAIL Time on 100 queries: 1.88622 ms. Success rate: 100 %.
         By Pathtree: 
-        Total PT Time on 100 queries: 0.828253 ms. Success rate: 100 %.
+            Total PT Time on 100 queries: 0.828253 ms. Success rate: 100 %.
         By Tabulation algorithm: 
-        Total Tabulation algorithm Time on 100 queries: 66.8495 ms. Success rate: 100 %.
+            Total Tabulation algorithm Time on 100 queries: 66.8495 ms. Success rate: 100 %.
 
 --------- Unreachable Queries Test ------------
         By GRAIL: 
-        Total GRAIL Time on 100 queries: 0.178227 ms. Success rate: 100 %.
+            Total GRAIL Time on 100 queries: 0.178227 ms. Success rate: 100 %.
         By Pathtree: 
-        Total PT Time on 100 queries: 0.090584 ms. Success rate: 100 %.
+            Total PT Time on 100 queries: 0.090584 ms. Success rate: 100 %.
         By Tabulation algorithm: 
-        Total Tabulation algorithm Time on 100 queries: 34.7317 ms. Success rate: 100 %.
+            Total Tabulation algorithm Time on 100 queries: 34.7317 ms. Success rate: 100 %.
 
 Dumping Memory for Storage Analysis ...
 Data dependence graph size: 1.54073 MB
@@ -79,8 +77,6 @@ Sample usage:
 ```
 ./tc -fd Data/cs_artifact/mcf/
 
-cg file: mcf-cg.txt
-#CG Vertices: 44 #CGEdges: 52
 Reading 44 / 44 graphs...
 Reading graph finished
 #DDG Vertices: 22194 #DDG Edges: 29372
