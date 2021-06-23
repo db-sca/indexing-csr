@@ -23,7 +23,7 @@ Each folder in `Data/cs_artifact`, e.g., `Data/cs_artifact/gcc`, contains the da
 
 ### Run the experiment
 
-### csr
+#### Run csr
 
 Specifying the graphs folder of the project(`-fd`) and number of queries(`-n`), after a sequence of
 operation, the duration of indexing construction, query performance, and success rate will be reported to the terminal.
@@ -69,7 +69,7 @@ PathTree related size: 1.07875 MB
 
 ```
 
-### tc
+#### Run tc
 After specifying the folder of the graphs(`-fd`) and timeout hours(`-nh`), the progress of transitive closure computation and is 
 presented on the fly. If the total running time exceeds the timeout setup, the `tc` will raise a ALARM signal and then exit, otherwise, the
 total running time and transitive closure size will be reported to the terminal.
