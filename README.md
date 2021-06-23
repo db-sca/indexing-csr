@@ -71,7 +71,7 @@ PathTree related size: 1.07875 MB
 
 #### Run tc
 After specifying the folder of the graphs(`-fd`) and timeout hours(`-nh`), the progress of transitive closure computation is 
-presented on the fly. If the total running time exceeds the timeout, `tc` will raise an ALARM signal and then exit. Otherwise, the
+presented on the fly. If the total running time exceeds the timeout, an ALARM signal will be raised to stop the program. Otherwise, the
 total running time and the size of the transitive closure will be reported.
 
 Sample usage:
