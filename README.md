@@ -37,7 +37,7 @@ Sample usage:
 .....
 .....
 ----- mcf: Indexing Construction Summary ------
-        DDG: #Vertices: 22194   #Edges: 29372
+        # DDG Vertices: 22194   # DDG Edges: 29372
         Summary edge construction duration:       86.249 ms
         GRAIL indices construction duration:     217.701 ms
         Total pathtree on Backbone duration:    1875.224 ms
@@ -83,7 +83,7 @@ cg file: mcf-cg.txt
 #CG Vertices: 44 #CGEdges: 52
 Reading 44 / 44 graphs...
 Reading graph finished
-#VFG Vertices: 22194 #VFG Edges: 29372
+#DDG Vertices: 22194 #DDG Edges: 29372
 Set timeout to 6 hours.
 [##################################################] 100%
 Total Time: 7516.47 ms
